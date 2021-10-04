@@ -1,6 +1,6 @@
 from math import sin, sqrt
 
-from Population import *
+from src.Population import *
 
 pop_size=100 
 crossover_rate=0.65
