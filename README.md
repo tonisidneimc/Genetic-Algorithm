@@ -1,8 +1,8 @@
 # Genetic-Algorithm
 A practical application of Genetic Algorithms to optimize functions.
 
-<p style="text-align:right;">
-    <img src="./img/f6.png">
+<img src="./img/f6.png">
+<p align="right">
     <i>Schaffer's F6</i>
 </p>
 
@@ -10,31 +10,35 @@ A practical application of Genetic Algorithms to optimize functions.
 
 Consider the following function:
 
-![CodeCogsEqn](./img/CodeCogsEqn.png)
+<p align="center">
+    <img src="./img/CodeCogsEqn.png" style="width: 50%;">
+</p>
 
-
-
-![CodeCogsEqn](./img/CodeCogsEqn2.png)
-
-
+<p align="center">
+    <img src="./img/CodeCogsEqn2.png" style="width: 30%;">
+</p>
 
 In this case, each chromosome will have a 44-bit word, with **k_i** = 22 bits to each variable of the problem. The function to convert this representation to a real number is:
 
-
-
-![CodeCogsEqn](./img/CodeCogsEqn3.png)
+<p align="center">
+    <img src="./img/CodeCogsEqn3.png">
+</p>
 
 where:
 
-![f6](./img/min_i.png)
+<p align="center">
+    <img src="./img/min_i.png">
+</p>
 
-![f6](./img/max_i.png)
-
-
+<p align="center">
+    <img src="./img/max_i.png">
+</p>
 
 With that, we define the parameters for the algorithm (F6 as the fitness function, a fixed mutation and crossover rates, a fixed population size), and follows these steps: 
 
-<img src="./img/gfig11.gif" style="width:70%;">
+<p align="center">
+    <img src="./img/gfig11.gif" style="width:70%;">
+</p>
 
 Where the termination criterion is a fixed number of generations.
 
